@@ -17,7 +17,7 @@
         return null;
     }
     let removeClass;
-    function runRefresh() {
+    function ;runRefresh() {
         if (window.confirm('本章已完成，是否重置成未完成？')) {
             let finishResult = Array(3);
             finishResult[0] = API_1484_11.SetValue('cmi.progress_measure', 0);
